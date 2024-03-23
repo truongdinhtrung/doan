@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup">
+
+    <ImageView
+
+        android:id="@+id/EĐE"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+android:background="@drawable/signup"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:text="Hey,"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:text="Sign Up Now"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtFullname"
+        android:layout_width="330dp"
+        app:layout_constraintHorizontal_bias="0.493"
+        android:layout_height="50dp"
+        android:layout_marginTop="335dp"
+android:paddingStart="10dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Full Name"
+        android:inputType="text"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtEmail2"
+        android:layout_width="330dp"
+        app:layout_constraintHorizontal_bias="0.493"
+        android:layout_height="50dp"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtPassword2"
+        android:layout_width="330dp"
+        app:layout_constraintHorizontal_bias="0.493"
+        android:layout_height="50dp"
+        android:layout_marginTop="445dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="PassWord"
+        android:inputType="textPassword"
+        android:paddingStart="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtRepeatPassword"
+        android:layout_width="330dp"
+        app:layout_constraintHorizontal_bias="0.493"
+        android:layout_height="50dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Repeat PassWord"
+        android:inputType="textPassword"
+        android:paddingStart="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="330dp"
+        app:layout_constraintHorizontal_bias="0.493"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="560dp"
+        android:background="@drawable/black1"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ivbtngoogle2"
+        android:layout_width="135dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="615dp"
+        android:src="@drawable/google"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/border_item"/>
+
+    <ImageButton
+        android:id="@+id/ivbtnfacebook2"
+        android:layout_width="135dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="615dp"
+        android:src="@drawable/facebook"
+        app:layout_constraintHorizontal_bias="0.851"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/border_item"/>
+    <TextView
+        android:id="@+id/txtLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="688dp"
+        android:text="Login"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

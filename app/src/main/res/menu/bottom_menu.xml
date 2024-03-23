@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_home"
+        android:icon="@drawable/backnew"
+        android:title="Home"
+        />
+    <item
+        android:id="@+id/bottom_heart"
+        android:icon="@drawable/heart"
+        android:title="heart"
+        />
+    <item
+        android:id="@+id/bottom_shoppingcart"
+        android:icon="@drawable/baseline_add_shopping_cart_24"
+        android:title="shoppingcart"
+        />
+    <item
+        android:id="@+id/bottom_account"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="account"
+        />
+
+</menu>
